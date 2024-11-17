@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import './App.css'
+
 import Navbar from './Components/Navbar'
 import Home from './Page/Home'
+import Projects from './Page/Projects'
 
 // Create placeholder components for the routes
 
@@ -18,6 +19,8 @@ function App() {
           {/* Define Routes for each page */}
           <Routes>
             <Route path="/" element={<Home/>} />
+            <Route path="/home" element={<Home/>} />
+            <Route path="/projects" element={<Projects/>} />
 
           </Routes>
         </div>

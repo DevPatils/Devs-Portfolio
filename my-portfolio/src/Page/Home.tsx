@@ -1,5 +1,7 @@
 import React from 'react';
 import hero from '../assets/Hero.png'; // Assuming the image is in the "assets" folder
+import { LampContainer } from '../Components/ui/lamp';
+
 
 
 const Home = () => {
