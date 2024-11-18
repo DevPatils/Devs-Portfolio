@@ -18,12 +18,7 @@ const Navbar = () => {
           >
             Home
           </Link>
-          <Link
-            to="/about"
-            className="text-white hover:text-blue-400 px-4 py-2 rounded-full text-lg font-medium transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-xl"
-          >
-            About
-          </Link>
+
           <Link
             to="/projects"
             className="text-white hover:text-blue-400 px-4 py-2 rounded-full text-lg font-medium transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-xl"
