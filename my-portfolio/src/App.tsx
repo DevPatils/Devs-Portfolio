@@ -1,15 +1,17 @@
-import { useState } from 'react'
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import Navbar from './Components/Navbar'
+
 import Home from './Page/Home'
 import Projects from './Page/Projects'
+
+import Achievement from './Page/Achievement'
 
 // Create placeholder components for the routes
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <Router>
@@ -21,6 +23,7 @@ function App() {
             <Route path="/" element={<Home/>} />
             <Route path="/home" element={<Home/>} />
             <Route path="/projects" element={<Projects/>} />
+            <Route path="/achievement" element={<Achievement/>} />
 
           </Routes>
         </div>

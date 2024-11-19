@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../Components/Navbar";
 import cricktrade from "../assets/cricktrade.png"; 
 import resource from "../assets/resource.png"; 
@@ -77,7 +76,7 @@ const Projects = () => {
                     href={project.liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-full text-lg transition-all duration-300 ease-in-out transform hover:scale-110"
+                    className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-full text-lg transition-all duration-300 ease-in-out transform hover:scale-110 w-full sm:w-auto text-center"
                   >
                     View Project
                   </a>
@@ -85,7 +84,7 @@ const Projects = () => {
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-transparent border-2 border-blue-600 hover:bg-blue-600 hover:text-white py-2 px-4 rounded-full text-lg transition-all duration-300 ease-in-out transform hover:scale-110"
+                    className="bg-transparent border-2 border-blue-600 hover:bg-blue-600 hover:text-white py-2 px-4 rounded-full text-lg transition-all duration-300 ease-in-out transform hover:scale-110 w-full sm:w-auto text-center"
                   >
                     GitHub
                   </a>
