@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import Home from './Page/Home'
 import Projects from './Page/Projects'
-
 import Achievement from './Page/Achievement'
 
 // Create placeholder components for the routes

@@ -1,6 +1,6 @@
 import Navbar from "../Components/Navbar";
 import cricktrade from "../assets/cricktrade.png"; 
-import resource from "../assets/resource.png"; 
+import resource from "../assets/resource.png";
 import churn from "../assets/churn.png"; 
 import sentio from "../assets/sentio.png"; 
 
