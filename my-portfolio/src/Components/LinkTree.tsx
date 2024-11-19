@@ -17,7 +17,7 @@ const LinkTreeModal: React.FC<LinkTreeModalProps> = ({ isOpen, onClose }) => {
         <div className="space-y-6">
           {/* Social Links */}
           <a
-            href="https://www.linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/dev-patil-b92743241/"
             target="_blank"
             rel="noopener noreferrer"
             className="block text-lg text-blue-500 hover:text-blue-400 transition-colors duration-300 text-center rounded-md py-2 px-4 hover:bg-blue-800 hover:ring-2 hover:ring-blue-500"
@@ -25,7 +25,7 @@ const LinkTreeModal: React.FC<LinkTreeModalProps> = ({ isOpen, onClose }) => {
             LinkedIn
           </a>
           <a
-            href="https://github.com/yourprofile"
+            href="https://github.com/DevPatils"
             target="_blank"
             rel="noopener noreferrer"
             className="block text-lg text-gray-300 hover:text-gray-200 transition-colors duration-300 text-center rounded-md py-2 px-4 hover:bg-gray-800 hover:ring-2 hover:ring-gray-600"
@@ -33,13 +33,13 @@ const LinkTreeModal: React.FC<LinkTreeModalProps> = ({ isOpen, onClose }) => {
             GitHub
           </a>
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:dev.patil1006@gmail.com"
             className="block text-lg text-green-500 hover:text-green-400 transition-colors duration-300 text-center rounded-md py-2 px-4 hover:bg-green-800 hover:ring-2 hover:ring-green-500"
           >
             Email Me
           </a>
           <a
-            href="https://twitter.com/yourprofile"
+            href="https://x.com/0xdevxeloper?t=0qlZ9tpYxw00RpPOlna5Ag&s=08"
             target="_blank"
             rel="noopener noreferrer"
             className="block text-lg text-blue-400 hover:text-blue-300 transition-colors duration-300 text-center rounded-md py-2 px-4 hover:bg-blue-700 hover:ring-2 hover:ring-blue-400"

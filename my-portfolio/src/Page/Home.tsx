@@ -1,15 +1,19 @@
-import  { useState } from "react";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate from react-router-dom
 import hero from "../assets/Hero.png"; // Assuming the image is in the "assets" folder
-
 import Navbar from "../Components/Navbar";
 import LinkTreeModal from "../Components/LinkTree"; // Importing the LinkTreeModal component
 
-
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const navigate = useNavigate(); // Initialize the navigate function
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
+
+  const goToProjects = () => {
+    navigate("/projects"); // Navigate to the '/projects' route
+  };
 
   return (
     <>
@@ -36,6 +40,7 @@ const Home = () => {
             </p>
             <div className="space-y-4 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row">
               <button
+                onClick={goToProjects} // Trigger navigation when the button is clicked
                 className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-8 rounded-full text-lg transition-all duration-300 ease-in-out transform hover:scale-110 shadow-lg"
               >
                 View Projects
@@ -47,19 +52,12 @@ const Home = () => {
                 Contact Me
               </button>
             </div>
-
           </div>
         </div>
-
-
-
       </div>
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white text-sm text-center mt-[5%] sm:mt-0 hidden sm:block">
-  <p>Designed and developed with ❤️</p>
-</div>
-
-
-
+        <p>Designed and developed with ❤️</p>
+      </div>
 
       {/* Modal */}
       <LinkTreeModal isOpen={isModalOpen} onClose={closeModal} />
