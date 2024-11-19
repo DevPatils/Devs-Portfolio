@@ -1,7 +1,7 @@
 import Navbar from "../Components/Navbar";
 import cricktrade from "../assets/cricktrade.png"; 
 import resource from "../assets/Resource.png";
-import churn from "../assets/churn.png"; 
+import churn from "../assets/Churn.png"; 
 import sentio from "../assets/sentio.png"; 
 
 const Projects = () => {
